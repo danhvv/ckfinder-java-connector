@@ -1,22 +1,21 @@
 enabled: true # Change this value to "true" to enable the application
 
-licenseName: '103.1.237.228'
-licenseKey: 'PXPXXECGH6UDWJ3HX8EFFU8WKF8F3'
+licenseName: 'mkmc.vn'
+licenseKey: '4333KRVFV5VP1WTGMSPEZJUBVSYHQ'
 roleSessionAttribute: 'CKFinder_UserRole'
 serveStaticResources: true
 checkSizeAfterScaling: false
 secureImageUploads: false
 csrfProtection: false
 
-
 extraHeaders:
-  'Access-Control-Allow-Origin': '*'
+  'Access-Control-Allow-Origin': 'https://mkmc.vn'
   'Access-Control-Allow-Credentials': 'true'
 
 backends:
   - name: 'default'
     adapter: 'local'
-    baseUrl: 'http://103.1.237.228:80/posts'
+    baseUrl: 'https://mkmc.vn/posts'
     root: '/usr/publics/posts'
     disallowUnsafeCharacters: true
     forceAscii: false
